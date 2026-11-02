@@ -1,0 +1,49 @@
+{
+  "generated_by": "cangjie-tools v2.5.0",
+  "bundle_id": "bundle.wangshimin",
+  "router_entrypoint": "wangshimin-methods",
+  "entrypoint_count": 8,
+  "capability_count": 10,
+  "destinations": {
+    "cap.wangshimin.problem-five-step": {
+      "promoted_to": "problem-five-step",
+      "router_view": "wangshimin-methods/references/capabilities/problem-five-step.md"
+    },
+    "cap.wangshimin.problem-framing": {
+      "promoted_to": "problem-framing",
+      "router_view": "wangshimin-methods/references/capabilities/problem-framing.md"
+    },
+    "cap.wangshimin.framework-topdown": {
+      "promoted_to": "framework-topdown",
+      "router_view": "wangshimin-methods/references/capabilities/framework-topdown.md"
+    },
+    "cap.wangshimin.hypothesis-testing": {
+      "promoted_to": "hypothesis-testing",
+      "router_view": "wangshimin-methods/references/capabilities/hypothesis-testing.md"
+    },
+    "cap.wangshimin.visualize-content": {
+      "promoted_to": "visualize-content",
+      "router_view": "wangshimin-methods/references/capabilities/visualize-content.md"
+    },
+    "cap.wangshimin.purposeful-study": {
+      "promoted_to": "purposeful-study",
+      "router_view": "wangshimin-methods/references/capabilities/purposeful-study.md"
+    },
+    "cap.wangshimin.skill-three-types": {
+      "promoted_to": "skill-three-types",
+      "router_view": "wangshimin-methods/references/capabilities/skill-three-types.md"
+    },
+    "cap.wangshimin.fast-reading": {
+      "promoted_to": "fast-reading",
+      "router_view": "wangshimin-methods/references/capabilities/fast-reading.md"
+    },
+    "concept-3questions": {
+      "served_by": "external:ai-feynman-practice",
+      "reason": "同一套方法的裁剪版，源头同为 YouCore，母版在费曼 skill"
+    },
+    "来龙去脉（概念历史脉络）": {
+      "served_by": "本包 purposeful-study 输入位",
+      "reason": "不进验收位，避免假阳性不可消除导致盲区清单无法清零"
+    }
+  }
+}

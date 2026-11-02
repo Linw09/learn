@@ -1,0 +1,87 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "generator_version": "cangjie-tools v2.5.0",
+  "generated_at": "2026-10-08",
+  "bundle_id": "bundle.wangshimin",
+  "variant": "pack",
+  "source_books": [
+    {
+      "title": "《思维力：高效的系统思维》",
+      "author": "王世民",
+      "topic": "系统分析与解决问题、结构化表达"
+    },
+    {
+      "title": "《学习力》",
+      "author": "王世民、缪志聪",
+      "topic": "学习策略与学习技巧"
+    }
+  ],
+  "router_entrypoint": "wangshimin-methods",
+  "entrypoint_count": 8,
+  "promoted_count": 8,
+  "capability_count": 8,
+  "skills": [
+    {
+      "slug": "problem-five-step",
+      "kind": "promoted",
+      "source": "《思维力》第3-5章",
+      "source_pages": "P42-155",
+      "card": "wangshimin-methods/references/capabilities/problem-five-step.md"
+    },
+    {
+      "slug": "problem-framing",
+      "kind": "promoted",
+      "source": "《思维力》第3章",
+      "source_pages": "P47-65",
+      "card": "wangshimin-methods/references/capabilities/problem-framing.md"
+    },
+    {
+      "slug": "framework-topdown",
+      "kind": "promoted",
+      "source": "《思维力》第4章第3节",
+      "source_pages": "P90-106",
+      "card": "wangshimin-methods/references/capabilities/framework-topdown.md"
+    },
+    {
+      "slug": "hypothesis-testing",
+      "kind": "promoted",
+      "source": "《思维力》第6章",
+      "source_pages": "P131-153",
+      "card": "wangshimin-methods/references/capabilities/hypothesis-testing.md"
+    },
+    {
+      "slug": "visualize-content",
+      "kind": "promoted",
+      "source": "《思维力》第10章",
+      "source_pages": "P205-234",
+      "card": "wangshimin-methods/references/capabilities/visualize-content.md"
+    },
+    {
+      "slug": "purposeful-study",
+      "kind": "promoted",
+      "source": "《学习力》第1章 + 第8章",
+      "source_pages": "P16-23 / P195-222",
+      "card": "wangshimin-methods/references/capabilities/purposeful-study.md"
+    },
+    {
+      "slug": "skill-three-types",
+      "kind": "promoted",
+      "source": "《学习力》第9/11/13/14章",
+      "source_pages": "P293-316",
+      "card": "wangshimin-methods/references/capabilities/skill-three-types.md"
+    },
+    {
+      "slug": "fast-reading",
+      "kind": "promoted",
+      "source": "《学习力》第5章",
+      "source_pages": "P111-135",
+      "card": "wangshimin-methods/references/capabilities/fast-reading.md"
+    }
+  ],
+  "router": {
+    "slug": "wangshimin-methods",
+    "kind": "router",
+    "path": "wangshimin-methods/SKILL.md"
+  },
+  "note": "面向中小学生；案例、术语与量表口径已从原书场景改写，方法骨架保留。"
+}
