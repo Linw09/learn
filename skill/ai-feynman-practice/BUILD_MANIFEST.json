@@ -1,0 +1,41 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\ai-guardrails.md": "3f26a1c1591b38b8014b720a4c12642500461cae348bedbaf3964cbac470055c",
+    "references\\capabilities\\anti-rationalization.md": "f9321043e79d21f027da387ebafe00163fd768c4f6cca007cd786a04b0faa049",
+    "references\\capabilities\\blind-spot-taxonomy.md": "b2088f768a8996c34f99b7e0eaf2ceac3e70f1fb30c779aec1b4676f452fd602",
+    "references\\capabilities\\clarity-vs-storage.md": "d7603016022ac35e8cffa9ad30842505045bebc49959101b11e44971dda1c9fe",
+    "references\\capabilities\\feedback-gap-model.md": "66a68672524b740bb81ba9f0652db281f3fdee1e58056ef472f5e52addb2163f",
+    "references\\capabilities\\mastery-acceptance.md": "cefd42d278a43da997168a21613acac222ca703938bd88667c46a7008fa7e1cd",
+    "references\\capabilities\\pit-value-reframe.md": "13ddbd2de76bee9af23eaa3bb2f1d54da1433052ef4729c1151100565f3fe7a0",
+    "references\\capabilities\\role-decomposition.md": "b11633effd0d63c47d98e40abf009cd539c1ef714c962b6c710980da282cd07d",
+    "references\\capabilities\\three-tier-drill.md": "18bbd97361f09049a6b1d99cfc8f24fd405777b79211492262e519871c4bcee1",
+    "references\\capabilities\\tool-boundary.md": "0a7dccc2a0e2a493ac686236936199004961c77019f185958c8d3bdd64105cc6",
+    "references\\capabilities\\understanding-diagnosis.md": "38a229510b82a3be6f85291a67faea7117051a7ba811379b417a023ab7f57a6a",
+    "references\\capability-index.md": "b8d37838f22dbd13033ce7566c6fb27abb2d29c75711289ee63281d89e24d4ec",
+    "references\\cheatsheet.md": "06546204878d178fcad4933c6029ba5257e0f62a102c80333a58b650d33a483b",
+    "references\\glossary.md": "9ee19b511027d8be286e14b06781ecbb905d6b05768682abf8b5208333d019d5",
+    "references\\overview.md": "05bec11200ca54693a2caea45076cdb530fc865a6cf9dfab15f187e20b7fd9b0",
+    "SKILL.md": "113be6e52cda3a561672e213d6dd40ba04bfcdbf37d4614e3fa6319605ba13cc"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖。本地手改（2026-09-14，新增「独立度」验收机制 + 补强补漏卡「交付节奏铁律」）：references/capabilities/mastery-acceptance.md、references/capabilities/three-tier-drill.md、references/capabilities/gap-filling.md、references/capability-index.md、references/cheatsheet.md、SKILL.md —— 上述文件哈希已偏离 published_hashes，待重编译同步，勿静默覆盖；本地手改（2026-09-28，与 self-taught-learning 划清触发边界：description 增加「事前备课/写讲义归 self-taught-learning」、正文「边界与判停」新增同款判停条）：SKILL.md —— 哈希同样偏离，勿静默覆盖。本地手改（2026-10-12，吸收外部 repo github.com/Albert529029/feiman-learning 的**无冲突**优点：①新建 references/templates/learning-record.md 练习记录模板；②mastery-acceptance.md E 步骤 5 反向探测增加第④类「迁移」；③gap-filling.md 术语空转补法增「类比三查」；④three-tier-drill.md 新增「节奏控制」前置规则；SKILL.md / capability-index.md / cheatsheet.md 同步登记。明确未吸收其「Obsidian 工具集成」「尊重用户跳过/结束」「五维 0-2 打分」——后两项与 trigger 层不变量冲突）：上述新增/改动文件哈希同样偏离 published_hashes，待重编译同步，勿静默覆盖。",
+  "bundle_id": "bundle.feynman-practice",
+  "bundle_sha256": "db5e961c512ccb8d4fa60e2d2b20d8b3e7fd8205a90e5d21d4f83ed1f97d25c7",
+  "variant": "single",
+  "run_id": "run-20260907-104031-709291",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 4,
+    "capability_count": 11,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 4 个晋级 Skill，共 5 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

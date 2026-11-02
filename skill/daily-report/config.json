@@ -1,0 +1,13 @@
+{
+  "_comment": "配置你自己的提交身份和历史日报目录。name / email / svn 作者名任一匹配即可，大小写不敏感。",
+  "historyDir": "C:/Users/linwen/Desktop/openCodeTest/history",
+  "gitAuthors": [
+    "Linw09"
+  ],
+  "gitEmails": [
+    "52514902+Linw09@users.noreply.github.com"
+  ],
+  "svnAuthors": [
+    "lw"
+  ]
+}
